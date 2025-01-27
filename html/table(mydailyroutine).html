@@ -1,0 +1,181 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Schedule Table</title>  
+    <style>  
+        table {  
+            border-collapse: collapse;  
+            width: 100%;  
+        }  
+        th, td {  
+            border: 1px solid #000;  
+            padding: 10px;  
+            text-align: center;  
+        }  
+        th {  
+            background-color: #f2f2f2;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <table>  
+
+    <!--Head of each column-->
+        <tr> 
+            <th>GROUP</th>
+            <th>10AM-11AM</th>  
+            <th>11AM-12PM</th>  
+            <th>12PM-01PM</th>
+            <th>LUNCH BREAK</th>  
+            <th>02PM-03PM</th>  
+            <th>03PM-04PM</th>  
+            <th>04PM-05PM</th>  
+        </tr>  
+ <!--Row 1-->
+        <tr>
+            <td rowspan="2">G1<br><br>Monday<br><br>G2</td>  
+            <td>OOP(Pushp Kala)</td>  
+            <td>DSA(Ritesh)</td>  
+            <td>AE(Swati)</td>  
+            <td rowspan="12"></td>
+            <td colspan="3">DSALab(Ritesh)(G1-1) / OOPLab(Pushp Kala)(G1-2)</td>  
+         
+        </tr>  
+ <!--Row 2-->
+
+        <tr>  
+            <td colspan="3">DSALab(Garima)(G2-1) / OOPLab(Alok)(G2-2)</td>  
+            <td>OOP(Alok)</td>  
+           
+            <td>DSA(Garima)</td>  
+            <td>MIII(Shilpi)</td>  
+        </tr>  
+
+         <!--Row 3-->
+<tr>
+    <td rowspan="2">G1<br><br>Tuesday<br><br>G2</td>
+    <td>MIII(Shilpi)</td>
+    <td>OOP(PushpKala)</td>
+    <td>DSA(Ritesh)</td>
+    <td colspan="3">DSALab(Ritesh)(G1-2) / OOPLab(PushpKala)(G1-1)</td>
+    
+</tr>
+
+ <!--Row 4-->
+ <tr>
+    <td colspan="3"></td>
+    <td>OOP(Alok)</td>
+    <td>AE(Swati)</td>
+    <td>DSA(Garima)</td>
+ </tr>
+ <!--Row 5-->
+ <tr>
+<td rowspan="2">G1<br><br>Wednesday<br><br>G2</td>
+<td>MIII(Shilpi)</td>
+<td>TW(Pralayankar/Anil)</td>
+<td>OOP(PushpKala)</td>
+<td colspan="3"></td>
+ </tr>
+ <!--Row 6-->
+<tr>
+<td colspan="3">AE Lab(Swati)</td>
+<td>OOP(Alok)</td>
+<td>AE(Swati)</td>
+<td>TW(Pralayankar)</td>
+</tr>
+
+ <!--Row 7-->
+
+<tr>
+    <td rowspan="2">G1<br><br>Thursday<br><br>G2</td>
+    <td>DSA(Ritesh)</td>
+    <td>TW(Anil)</td>
+    <td>AE(Swati)</td>
+    <td colspan="3"></td>
+</tr>
+
+<!--Row 8-->
+
+<tr>
+    <td colspan="3">DSALab(Garima)(G2-2) / OOPLab(Alok)(G2-1)</td>
+     <td>DSA(Garima)</td>
+<td>TW(Pralayankar/Anil)</td>
+<td>AE(Swati)</td>
+</tr>
+
+<!--Row 9-->
+
+<tr>
+    <td rowspan="2">G1<br><br>Friday<br><br>G2</td>
+    <td>AE(Swati)</td>
+    <td>TW(Pralayankar/Anil)</td>
+    <td></td>
+<td colspan="3"></td>
+</tr>
+
+<!--Row 10-->
+
+<tr>
+<td colspan="3"></td>
+<td>MIII(Swati)</td>
+<td>TW(Anil)</td>
+<td></td>
+</tr>
+
+<!--Row 11-->
+
+<tr>
+    <td rowspan="2">G1<br><br>Saturday<br><br>G2</td>
+    <td>OOP Lab(PushpKala)</td>
+    <td></td>
+<td>DSA Lab(Ritesh)</td>
+<td></td>
+<td colspan="3">AE Lab(Swati)</td>
+</tr>
+
+<!--Row 12-->
+<tr>
+    <td>DSA Lab(Garima)</td>
+<td>AE Lab(Swati)</td>
+<td>OOP Lab(Alok)</td>
+<td colspan="3"></td>
+</tr>
+
+
+
+
+    </table>  
+</body>  
+</html> 
+
+<!--
+     Initial code for Friday which is followed for every weekdays including Saturday
+
+     row 9
+
+<tr>
+    <td>G1<br><br>Friday<br><br>G2</td>
+    <td>AE(Swati)</td>
+    <td></td>
+    <td>TW(Pralayankar/Anil)</td>
+    <td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+    
+row 10
+
+<tr>
+    <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>MIII(Swati)</td>
+<td>TW(Anil)</td>
+</tr>
+
+-->

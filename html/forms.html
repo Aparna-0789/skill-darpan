@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Forms
+        </title>
+    </head>
+<body>
+  <h1> Learning how to make forms from HTML</h1>
+ <!--The <fieldset> element is used to group related data in a form.
+
+The <legend> element defines a caption for the <fieldset> element.-->
+
+<fieldset>
+<legend>Student Portfolio</legend> 
+ <form>
+    <label for="name">Name:</label>
+    <input type="text" name="Full Name" placeholder="Enter your full name"</form>
+
+    <h3>taking input of name using <u>value</u> attribute</h3>
+     <label for="name">Name:</label>
+<input type="text" name="Full Name" value="Aparna">
+   
+<h3> Asking for feedback we use textarea attribute so that we can take input in multiple lines</h3>
+
+<label for="feedback">Feedback:</label> <br>
+<textarea name="message" rows="5" column="8"></textarea>
+
+<h3>use to datalist element and create a dropdown menu</h3>
+
+<label for="gnder">Select your gender</label>
+<input list="gender">
+<datalist id="gender">
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+<option value="Others">Others</option>
+</datalist>
+
+</fieldset><br>
+<button type="Submit"><center>Submit</center></button>
+</form>
+</body>
+
+</html>
